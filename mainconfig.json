@@ -1,0 +1,19 @@
+{
+"Log4jsconfig": {
+    "appenders": {
+        "file": {
+            "type": "dateFile",
+            "filename": "logs/server-logs.log"
+        },
+        "out": {
+            "type": "stdout"
+        }
+    },
+    "categories": {
+        "default": {
+            "appenders": ["file", "out"],
+            "level": "debug"
+        }
+    }
+}
+}
