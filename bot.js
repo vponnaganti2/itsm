@@ -65,7 +65,7 @@ class ABot extends ActivityHandler {
             {
                 dialogstate1.language=context.activity.text
                 await this.conversationstate.saveChanges(context, false);
-                await context.sendActivity(await translation.Translationmethod(dialogstate1.language,"Do You Want to 'Get Existing Ticket Details' or 'Raise a Ticket' in your own words to proceed further"))
+                await context.sendActivity(await translation.Translationmethod(dialogstate1.language,"Do You Want to 'Get Existing Ticket description' or 'Raise a Ticket' in your own words to proceed further"))
 
             }
             else
